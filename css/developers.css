@@ -1,0 +1,217 @@
+@media screen and (min-width: 1280px){
+  .body.developers-page .second-block{
+    margin-top: 362px;
+  }
+}
+@media screen and (max-width: 1280px){
+  .body.developers-page .first-block .container{
+    flex-direction: column-reverse;
+  }
+  .body.developers-page .second-block .container .benefits{
+    flex-direction: column;
+    margin: 0 auto;
+    height: 700px;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  .body.developers-page .second-block{
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+.body.developers-page .first-block {
+  margin-top: 105px;
+}
+.body.developers-page .first-block .container {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.body.developers-page .first-block .container .left-block {
+  margin: auto 0;
+}
+.body.developers-page .first-block .container .left-block .head-text h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #08BDD4;
+}
+.body.developers-page .first-block .container .left-block .head-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+}
+.body.developers-page .first-block .container .left-block p {
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.body.developers-page .first-block .container .left-block .buttons {
+  margin-top: 25px;
+  display: flex;
+}
+.body.developers-page .first-block .container .left-block .buttons .button-documents {
+  margin-right: 17px;
+  width: 128px;
+  height: 39px;
+  background: linear-gradient(97.04deg, #22BBC8 9.28%, #24D7A7 92.55%);
+  border-radius: 23.5px;
+  display: flex;
+  cursor: pointer;
+}
+.body.developers-page .first-block .container .left-block .buttons .button-documents a {
+  margin: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.body.developers-page .first-block .container .left-block .buttons .button-start {
+  width: 101px;
+  height: 39px;
+  border: 1px solid #FFFFFF;
+  border-radius: 23.5px;
+  display: flex;
+  cursor: pointer;
+}
+.body.developers-page .first-block .container .left-block .buttons .button-start a {
+  margin: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.body.developers-page .first-block .container .left-block .buttons .button-start:active {
+  background: #FFFFFF;
+}
+.body.developers-page .first-block .container .left-block .buttons .button-start:active a {
+  color: #000000;
+}
+.body.developers-page .first-block .container .right-block {
+  margin: 0 auto;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.body.developers-page .second-block {
+  margin-bottom: 56px;
+}
+.body.developers-page .second-block .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.body.developers-page .second-block .container .benefits {
+  display: flex;
+  width: 100%;
+}
+.body.developers-page .second-block .container .benefits .left-block {
+  margin: 0 auto;
+  justify-content: center;
+}
+.body.developers-page .second-block .container .benefits .central-block {
+  justify-content: center;
+  margin: 0 auto;
+}
+.body.developers-page .second-block .container .benefits .right-block {
+  margin: 0 auto;
+  justify-content: center;
+}
+.body.developers-page .second-block .container .benefits .left-block, .body.developers-page .second-block .container .benefits .central-block, .body.developers-page .second-block .container .benefits .right-block {
+  width: 338px;
+  height: 224px;
+  background: linear-gradient(123.53deg, rgba(39, 54, 58, 0.8) 8.27%, rgba(6, 25, 32, 0.8) 87.81%);
+  border-radius: 10px;
+  padding: 28px 15px 0 35px;
+}
+.body.developers-page .second-block .container .benefits .left-block .black-benefits-svg, .body.developers-page .second-block .container .benefits .central-block .black-benefits-svg, .body.developers-page .second-block .container .benefits .right-block .black-benefits-svg {
+  height: 43px;
+  margin-bottom: 9px;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.body.developers-page .second-block .container .benefits .left-block h4, .body.developers-page .second-block .container .benefits .central-block h4, .body.developers-page .second-block .container .benefits .right-block h4 {
+  font-weight: 900;
+  font-size: 15.5px;
+  line-height: 21px;
+  color: #08BDD4;
+}
+.body.developers-page .second-block .container .benefits .left-block h5, .body.developers-page .second-block .container .benefits .central-block h5, .body.developers-page .second-block .container .benefits .right-block h5 {
+  margin-top: 18px;
+  font-weight: 900;
+  font-size: 13.5px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.body.developers-page .second-block .container .blockchain-block {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 88px;
+}
+.body.developers-page .second-block .container .blockchain-block h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.body.developers-page .second-block .container .blockchain-block .supporting-blockchains {
+  justify-content: center;
+  margin-top: 57px;
+  display: flex;
+  padding: 0 97px;
+}
+.body.developers-page .second-block .container .blockchain-block .supporting-blockchains .blockchain {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.body.developers-page .second-block .container .blockchain-block .supporting-blockchains .blockchain .blockchain-logo-position {
+  margin-top: 2px;
+  height: 132px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.body.developers-page .second-block .container .blockchain-block .supporting-blockchains .blockchain .blockchain-logo-position .blockchain-img {
+  margin: auto;
+}
+.body.developers-page .second-block .container .blockchain-block .supporting-blockchains .blockchain .blockchain-name {
+  margin: 18px auto 0;
+  display: inline-flex;
+  height: 43px;
+  width: auto;
+  background: linear-gradient(123.53deg, rgba(39, 54, 58, 0.8) 8.27%, rgba(6, 25, 32, 0.8) 87.81%);
+  border-radius: 100px;
+  padding: 0 24px;
+  align-items: center;
+}
+.body.developers-page .second-block .container .blockchain-block .supporting-blockchains .blockchain .blockchain-name h3 {
+  margin: auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=developers.css.map */
